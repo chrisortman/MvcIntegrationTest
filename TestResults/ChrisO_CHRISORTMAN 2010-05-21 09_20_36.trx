@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7b91f88e-d20a-4424-af50-ff23e8d87c80" name="ChrisO@CHRISORTMAN 2010-05-21 09:20:36" runUser="INNSYS\ChrisO" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0aba6468-b473-456a-a922-b5a74a61eff7">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\OSS\MvcIntegrationTest\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="ChrisO_CHRISORTMAN 2010-05-21 09_20_36">
+      <DeploymentItem filename="C:\OSS\MvcIntegrationTest\src\MvcIntegrationTestFramework\bin\Debug\MvcIntegrationTestFramework.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-05-21T09:20:36.4115172-05:00" queuing="2010-05-21T09:20:38.7567517-05:00" start="2010-05-21T09:20:38.9457706-05:00" finish="2010-05-21T09:21:39.2357990-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="CHRISORTMAN" outcome="Error" timestamp="2010-05-21T09:21:39.2287983-05:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\oss\mvcintegrationtest\example.mstest\bin\debug\example.mstest.dll" id="5ac826d5-b154-0517-8852-6be0168b0a57">
+      <Execution id="fbb72612-090e-4bde-bd8a-393596cc4a7d" />
+      <TestMethod codeBase="C:/OSS/MvcIntegrationTest/Example.MsTest/bin/Debug/Example.MsTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Example.MsTest.UnitTest1, Example.MsTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5ac826d5-b154-0517-8852-6be0168b0a57" executionId="fbb72612-090e-4bde-bd8a-393596cc4a7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="fbb72612-090e-4bde-bd8a-393596cc4a7d" testId="5ac826d5-b154-0517-8852-6be0168b0a57" testName="TestMethod1" computerName="CHRISORTMAN" duration="00:01:00.1490143" startTime="2010-05-21T09:20:39.0867847-05:00" endTime="2010-05-21T09:21:39.2357990-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fbb72612-090e-4bde-bd8a-393596cc4a7d">
+    </UnitTestResult>
+  </Results>
+</TestRun>
